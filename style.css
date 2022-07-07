@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(199, 212, 223, 0.864);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 25%;
+}
+.sectionA {
+  padding: 4%;
+  background-color: white;
+}
+.sectionA h2 {
+  padding: 3% 0%;
+  color: hsl(179, 62%, 43%);
+}
+.sectionA h3 {
+  font-size: 1rem;
+  padding-bottom: 4%;
+  color: hsl(71, 73%, 54%);
+}
+.sectionA p {
+  font-size: 0.9rem;
+  padding: 5% 0%;
+  color: hsl(205, 10%, 68%);
+}
+.sectionB h2 {
+  padding: 4% 0%;
+  font-size: 1.3rem;
+}
+.sectionB p {
+  font-size: 0.9rem;
+  padding: 3% 0%;
+}
+.secA {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding: 4%;
+}
+.secB {
+  background-color: hsl(179, 70%, 28%);
+  color: white;
+  padding: 4%;
+}
+.secA button {
+  padding: 3%;
+  margin: 4% 0%;
+  background-color: green;
+  border: none;
+  width: 100%;
+}
+.secA span {
+  font-size: 2rem;
+}
+.secB ol li {
+  list-style-type: none;
+  padding: 2% 0%;
+  font-size: 0.8rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 1rem;
+}
+
+@media (min-width: 770px) {
+  .sectionB {
+    display: flex;
+    flex-direction: row;
+  }
+  .secA {
+    width: 50%;
+  }
+  .secB {
+    width: 50%;
+  }
+  .sectionA h3 {
+    padding-bottom: 1%;
+  }
+  .sectionA p {
+    padding: 1% 0%;
+  }
+  .secA button {
+    padding: 5%;
+    margin-top: 8%;
+  }
+}
